@@ -5,7 +5,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "users")
 public class User {
-   @OneToOne(cascade = CascadeType.ALL)
+   @OneToOne
    private Car car;
 
    @Id
